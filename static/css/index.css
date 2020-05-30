@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 150px;
+    background-image: url(https://image.shutterstock.com/image-vector/software-web-development-programming-concept-260nw-1122339353.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header .tittle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #33333377;
+}
+form {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#box-nome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-lin{
+    background: #2980b9;
+    width: 400px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
